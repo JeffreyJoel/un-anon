@@ -47,7 +47,7 @@ export const Mixer = () => {
               Final Receipient Address
             </label>
             <div
-              className="relative flex items-center justify-between  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="relative flex items-center justify-between  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 cursor-pointer"
               onClick={copyToClipboard}
             >
               {/* // className=" mt-2 flex w-full max-w-sm cursor-pointer items-center justify-between rounded border border-gray-600 p-3 shadow" */}
