@@ -19,7 +19,7 @@ export const Mixer = () => {
   };
   return (
     <>
-      <div className="py-8 px-6 max-w-5xl mx-auto border border-slate-900 bg-opacity-10 backdrop-blur-sm backdrop-filter rounded-xl ">
+      <div className="py-6 px-6 max-w-5xl mx-auto border border-slate-900 bg-opacity-10 backdrop-blur-sm backdrop-filter rounded-xl ">
         <div className="flex flex-col md:flex-row justify-between items-center  ">
           <div className=" w-full md:w-3/4">
             <label
