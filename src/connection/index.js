@@ -2,16 +2,16 @@
 
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers/react";
 
-export const SEPOLIA_ID = 11155111;
+export const ETHEREUM_ID = 1;
 
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 
-const Sepolia = {
-  chainId: SEPOLIA_ID,
-  name: "Sepolia",
+const Ethereum = {
+  chainId: ETHEREUM_ID,
+  name: "Ethereum",
   currency: "ETH",
-  explorerUrl: "https://sepolia.etherscan.io",
-  rpcUrl: process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL,
+  explorerUrl: "https://etherscan.io",
+  rpcUrl: process.env.NEXT_PUBLIC_ETHEREUM_RPC_URL,
 };
 
 const metadata = {
@@ -24,7 +24,7 @@ const metadata = {
 // 5. Create a Web3Modal instance
 createWeb3Modal({
   ethersConfig: defaultConfig({ metadata }),
-  chains: [Sepolia],
+  chains: [Ethereum],
   projectId,
   enableAnalytics: false,
 });
